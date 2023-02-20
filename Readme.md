@@ -1,17 +1,17 @@
 ## A Semi-Decent Review of the Python Book we use as well as tips and random stuff.
 
    
-    What a Program is:  The definition of a program at its most basic is a sequence of Python statements
-    that have been crafted to do something. Even our simple hello.py SCRIPT is a
-    program. It is a one-line program and is not particularly useful, but in the strictest
-    definition, it is a Python program.
+What a Program is:  The definition of a program at its most basic is a sequence of Python statements
+that have been crafted to do something. Even our simple hello.py SCRIPT is a
+program. It is a one-line program and is not particularly useful, but in the strictest
+definition, it is a Python program.
 
 
-                    Definitions and Common language you'll hear
-
-    INPUT:   Get data from the “outside world”. This might be reading data from a
-    file, or even some kind of sensor like a microphone or GPS. In our initial
-    programs, our input will come from the user typing data on the keyboard.        Indentified by Input()
+### Definitions and Common language you'll hear
+   
+**INPUT:** Get data from the “outside world”. This might be reading data from a
+file, or even some kind of sensor like a microphone or GPS. In our initial
+programs, our input will come from the user typing data on the keyboard. Indentified by Input()
 
     OUTPUT:  Display the results of the program on a screen or store them in a file or
     perhaps write them to a device like a speaker to play music or speak text.      Indentified by whatever is printed out by the computer when the script is ran
