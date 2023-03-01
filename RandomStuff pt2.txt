@@ -1,5 +1,8 @@
    
-        A Semi-Decent Review of the Python Book we use as well as tips and random stuff.
+        #H2 A Semi-Decent Review of the Python Book we use as well as tips and random stuff.
+
+P.S. This review would not have been able to be created as intricate and descriptive without the help and knowledge obtained by Dr. Charles R. Severance,
+his book, Python for Everybody: Exploring Data Using Python 3. More of his information at the bottom of this review.
 
    
     What a Program is:  The definition of a program at its most basic is a sequence of Python statements
@@ -8,57 +11,57 @@
     definition, it is a Python program.
 
 
-                    Definitions and Common language you'll hear
+                 #H3   Definitions and Common language you'll hear
 
-    INPUT:   Get data from the “outside world”. This might be reading data from a
+    **INPUT:**   Get data from the “outside world”. This might be reading data from a
     file, or even some kind of sensor like a microphone or GPS. In our initial
     programs, our input will come from the user typing data on the keyboard.        Indentified by Input()
 
-    OUTPUT:  Display the results of the program on a screen or store them in a file or
+    **OUTPUT:**  Display the results of the program on a screen or store them in a file or
     perhaps write them to a device like a speaker to play music or speak text.      Indentified by whatever is printed out by the computer when the script is ran
 
-    CENTRAL PROCESSING UNIT:     The heart of any computer. It is what runs the software
+    **CENTRAL PROCESSING UNIT:**     The heart of any computer. It is what runs the software
     that we write; also called “CPU” or “the processor”.
 
-    PROMPT:     When a program displays a message and pauses for the user to type some
+    **PROMPT:**     When a program displays a message and pauses for the user to type some
                 input to the program.
                 
-    BUG:    An error in a program.
+    **BUG:**    An error in a program.
 
-    SEMANTIC ERROR:  An error in a program that makes it do something other than
+    **SEMANTIC ERROR:**  An error in a program that makes it do something other than
     what the programmer intended.
 
-    SEQUENTIAL EXECUTION:    Perform statements one after another in the order they
+    **SEQUENTIAL EXECUTION:**    Perform statements one after another in the order they
     are encountered in the script.
 
-    REPEATED EXECUTION:    Perform some set of statements repeatedly, usually with
+    **REPEATED EXECUTION:**    Perform some set of statements repeatedly, usually with
     some variation
 
 
-    TYPE:       A category of values. The types we have seen so far are integers (type int),
+    **TYPE:**       A category of values. The types we have seen so far are integers (type int),
                 floating-point numbers (type float), and strings (type str).
 
-    VALUE:      One of the basic units of data, like a number or string, that a program manipulates.    
+    **VALUE:**      One of the basic units of data, like a number or string, that a program manipulates.    
     
-    VARIABLE:   A name that refers to a value
+    **VARIABLE:**   A name that refers to a value
 
-    STATEMENT:  A statement is a unit of code that the Python interpreter can execute.      An line of code is theoritically a statement, this whole review is one in some way
+    **STATEMENT:**  A statement is a unit of code that the Python interpreter can execute.      An line of code is theoritically a statement, this whole review is one in some way
 
-    SCRIPT:     A script usually contains a sequence of statements.
+    **SCRIPT:**     A script usually contains a sequence of statements.
 
-    STRING:     A type that represents sequences of characters.    Ex. "Pineapple does not belong on Pizza", "Hello World!"       Indentified by Str()
+    **STRING:**     A type that represents sequences of characters.    Ex. "Pineapple does not belong on Pizza", "Hello World!"       Indentified by Str()
 
-    INTEGER:    A value or variable that represents a whole number.   Ex. 2, 3, 99, 7298342       Indentified by Int()
+    **INTEGER:**    A value or variable that represents a whole number.   Ex. 2, 3, 99, 7298342       Indentified by Int()
 
-    FLOAT:      A value or variable that represents a decimal number, also known as floating point  Ex. 2.5, 3.1, 99.9, 7.298342        Indentified by Float()
+    **FLOAT:**      A value or variable that represents a decimal number, also known as floating point  Ex. 2.5, 3.1, 99.9, 7.298342        Indentified by Float()
 
-    BOOLEAN:    A boolean expression is an expression that is either true or false.    Ex. 5 == 5 ---> The output is True 5 == 6 ---> The output is False       Indentified by bool()
+    **BOOLEAN:**    A boolean expression is an expression that is either true or false.    Ex. 5 == 5 ---> The output is True 5 == 6 ---> The output is False       Indentified by bool()
 
-    MODULUS:    An operator that works on integers and yields the remainder when one number is divided by another.     Ex. 3 % 2 = 1, 6 % 4 = 2     Indentified by %
+    **MODULUS:**    An operator that works on integers and yields the remainder when one number is divided by another.     Ex. 3 % 2 = 1, 6 % 4 = 2     Indentified by %
 
-    EXPONENTATION:     An operator that raises the power of a value by itself, "to the power of".       Ex. 3**2 = 9, regular math its 3^2       Indentified by **
+    **EXPONENTATION:**     An operator that raises the power of a value by itself, "to the power of".       Ex. 3**2 = 9, regular math its 3^2       Indentified by **
 
-    FLOOR DIVISION:    An operator that divides two integers and rounds down to the nearest whole number, also known as integer division.   Ex. 15 // 2 ---> The output is  7      Indentified by //
+    **FLOOR DIVISION:**    An operator that divides two integers and rounds down to the nearest whole number, also known as integer division.   Ex. 15 // 2 ---> The output is  7      Indentified by //
 
                       
                 I don't believe I need to explain how addition, subtraction, division, etc. works so I'll just show their respective operator.
@@ -68,20 +71,20 @@
             
 
 
-    COMMENT:    A "#" is used to turn the line into an unreadable part when you run the program, (place it at the front)
+    **COMMENT:**    A "#" is used to turn the line into an unreadable part when you run the program, (place it at the front)
 
-    EXPRESSION: An expression is a combination of values, variables, and operators. A value all by
+    **EXPRESSION:** An expression is a combination of values, variables, and operators. A value all by
     itself is considered an expression, and so is a variable
 
-    PEMDAS:  For the way Python follows a statement. When more than one operator appears in an expression, the order of evaluation
+    **PEMDAS:**  For the way Python follows a statement. When more than one operator appears in an expression, the order of evaluation
     depends on the rules of precedence. For mathematical operators, Python follows
     mathematical convention. The acronym PEMDAS is a useful way to remember
     the rules.
 
-    OPERATOR:  A special symbol that represents a simple computation like addition,
+    **OPERATOR:**  A special symbol that represents a simple computation like addition,
     multiplication, or string concatenation.    Ex. +, -, !=, >, etc.
 
-    OPERAND:   One of the values on which an operator operates.     Ex. 3 + 10      a = 30, b = 20 ("a" and "b" are operands)
+    **OPERAND:**   One of the values on which an operator operates.     Ex. 3 + 10      a = 30, b = 20 ("a" and "b" are operands)
                                                                         ^    ^  ("3" and "10" are operands while the "+" is an operator)
 
         The == operator is one of the comparison operators; the others are:
@@ -100,21 +103,21 @@
 
 
 
-    SEQUENTIAL EXECUTION:    Perform statements one after another in the order they
+    **SEQUENTIAL EXECUTION:**    Perform statements one after another in the order they
     are encountered in the script.
 
-    CONDITIONAL EXECUTION:   Check for certain conditions and then execute or skip a
+    **CONDITIONAL EXECUTION:**   Check for certain conditions and then execute or skip a
     sequence of statements.
 
-    REPEATED EXECUTION:  Perform some set of statements repeatedly, usually with
+    **REPEATED EXECUTION:**  Perform some set of statements repeatedly, usually with
     some variation.
 
-    REUSE:   Write a set of instructions once and give them a name and then reuse those
+    **REUSE:**   Write a set of instructions once and give them a name and then reuse those
     instructions as needed throughout your program.
 
-    IMPORT STATEMENT:    A statement that reads a module file and creates a module object.
+    **IMPORT STATEMENT:**    A statement that reads a module file and creates a module object.
 
-    MODULE OBJECT:   A value created by an import statement that provides access to the data and code defined in a module.
+    **MODULE OBJECT:**   A value created by an import statement that provides access to the data and code defined in a module.
 
 
                 Python reserves 35 keywords:
@@ -160,11 +163,11 @@
             time2 = 3
             final_time = float(time1 + time2)
 
-    IMPORT FUNCTION:    The best way I'd describe the "import" function is bringing in a function or program into your code. We've used them for the dice game, import random, to
+    **IMPORT FUNCTION:**    The best way I'd describe the "import" function is bringing in a function or program into your code. We've used them for the dice game, import random, to
     allow the code to choice a random number from 1-6 for the dice roll. There are other ones like: import math, import "othercode.txt" (so we can use another code), as well as
     import certain parts from programs by doing: Ex. from math import addition
 
-    Alternative Execution: A second form of the if statement is alternative execution, in which there are two
+    **ALTERNATIVE EXECUTION:** A second form of the if statement is alternative execution, in which there are two
     possibilities and the condition determines which one gets executed. The syntax
     looks like this
         if x % 2 == 0 :
@@ -174,9 +177,9 @@
 
 
 
-                                        Executions and most recent topic
+                                    #H3    Executions and most recent topic
 
-    Condtional Execution: In order to write useful programs, we almost always need the ability to check conditions and change the behavior of the program accordingly. Conditional statements
+    **CONDITIONAL EXECUTION:** In order to write useful programs, we almost always need the ability to check conditions and change the behavior of the program accordingly. Conditional statements
     give us this ability.
 
         if x > 0 :
@@ -192,7 +195,7 @@
         else:
             print('x and y are equal')
             
-    Nested Conditionals: One conditional can also be nested within another. We could have written the
+    **NESTED CONDITIONALS:** One conditional can also be nested within another. We could have written the
     three-branch example like this:
 
         if x == y:
@@ -205,7 +208,7 @@
             
 
 
-                                                Tips and shortcuts you should utilize:
+                                         #H3       Tips and shortcuts you should utilize:
 
 ctrl + s    is to save file
 ctrl + c    is to copy text
@@ -219,3 +222,11 @@ ctrl + f    opens the find menu
 ctrl + enter goes to next line
 
 And go to the Help tab on the top left so you can see more keybinds as well as create your own keybinds
+
+
+
+                                        #H4 Credits and References:
+
+Severance, Charles R. Python for Everybody: Exploring Data Using Python 3. CreateSpace Independent Publishing Platform, 2016. 
+ 
+
